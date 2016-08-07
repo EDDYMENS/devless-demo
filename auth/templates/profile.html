@@ -1,0 +1,19 @@
+
+		<form style="margin-left:30%;margin-top:10%;margin-right:30%" class="form-signin" action="#/update-profile" method="post">
+        <h2 class="form-signin-heading">Profile</h2>
+        <label for="inputfirstname" class="sr-only">First Name</label>
+        <input type="text" id="inputfirstname" name="firstname" class="form-control" value="{{profile.first_name}}" placeholder="First Name" required autofocus>
+        <label for="inputEmail" class="sr-only">Last Name </label>
+        <input type="text" id="inputlastname" name="lastname" class="form-control" value="{{profile.last_name}}" placeholder="Last Name" required autofocus>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" name="email" class="form-control"  value="{{profile.email}}" placeholder="Email address" required autofocus>
+        <label for="inputEmail" class="sr-only">Phone Number</label>
+        <input type="number" id="inputEmail" name="phonenumber" class="form-control" value="{{profile.phone_number}}" placeholder="phone number" required autofocus>
+        <label for="inputusername" class="sr-only">Username</label>
+        <input type="text" id="inputusername" name="username" class="form-control" value="{{profile.username}}" placeholder="username" required autofocus>
+       
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+        
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Update Profile</button>
+      </form>
